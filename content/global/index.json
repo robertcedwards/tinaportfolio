@@ -1,12 +1,12 @@
 {
   "header": {
     "icon": {
-      "name": "Tina",
+      "name": "BiHash",
       "color": "orange",
       "style": "float"
     },
-    "name": "Tina Starter",
-    "color": "default",
+    "name": "0xHashbrown",
+    "color": "primary",
     "nav": [
       {
         "href": "",
