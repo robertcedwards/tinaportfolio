@@ -2,11 +2,11 @@
   "header": {
     "icon": {
       "name": "BiHash",
-      "color": "orange",
-      "style": "float"
+      "color": "blue",
+      "style": "circle"
     },
     "name": "0xHashbrown",
-    "color": "primary",
+    "color": "default",
     "nav": [
       {
         "href": "",
