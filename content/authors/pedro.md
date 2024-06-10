@@ -1,5 +1,5 @@
 ---
-name: Pedro
-avatar: /uploads/llama-6.avif
+name: 0xHashbrown
+avatar: /uploads/Glitched Image 500x500.gif
 ---
 
