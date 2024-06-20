@@ -86,6 +86,11 @@ const Global: Collection = {
             },
             {
               type: "string",
+              label: "Farcaster",
+              name: "farcaster",
+            },
+            {
+              type: "string",
               label: "Twitter",
               name: "twitter",
             },

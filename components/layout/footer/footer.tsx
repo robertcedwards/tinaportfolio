@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { FaFacebookF, FaGithub, FaTwitter } from "react-icons/fa";
+import { SiFarcaster } from "react-icons/si";
 import { AiFillInstagram } from "react-icons/ai";
 import { Container } from "../../util/container";
 import { RawRenderer } from "./rawRenderer";
@@ -61,13 +62,13 @@ export const Footer = ({ data, icon, rawData }) => {
             />
           </Link>
           <div className="flex gap-4">
-            {data.social && data.social.facebook && (
+            {data.social && data.social.farcaster && (
               <a
                 className="inline-block opacity-80 hover:opacity-100 transition ease-out duration-150"
-                href={data.social.facebook}
+                href={data.social.farcaster}
                 target="_blank"
               >
-                <FaFacebookF
+                <SiFarcaster
                   className={`${socialIconClasses} ${
                     socialIconColorClasses[
                       data.color === "primary" ? "primary" : theme.color
